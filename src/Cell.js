@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 
 export default class Cell extends Component {
   constructor(props){
-    super(props)
+    super()
     this.state = {
       color: this.props.value
     }
